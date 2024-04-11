@@ -21,7 +21,27 @@ Acesse a pasta que deseja transformar em um repositório Git  pelo terminal ou c
     ```bash
     $ git remote add origin https://github.com/username/nome-do-repositorio.git
     ```
-##
+### Salvando Alterações no Reposítorio Remoto
+
+##### Verifique se há alterações
+```bash
+$ git status
+```
+
+##### Adicione essas alterações
+```bash
+$ git addd .
+```
+
+##### Adicione um commit
+```bash
+$ git commit -m"descrição do commit"
+```
+
+##### Adicione a alteração no Repositório Remoto
+```bash
+$ git push origin main
+```
 
 ### Desfazendo Alterações no Repositório Local
 
